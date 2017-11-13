@@ -46,7 +46,7 @@
             android:textStyle="bold" />
     </LinearLayout>
 
-    <eu.siacs.conversations.ui.widget.Switch
+    <in.gndec.paigaam.ui.widget.Switch
         style="@style/MD"
         android:id="@+id/tgl_account_status"
         android:layout_width="wrap_content"

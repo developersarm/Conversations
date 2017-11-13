@@ -1,4 +1,4 @@
-package eu.siacs.conversations.services;
+package in.gndec.paigaam.services;
 
 import android.provider.Settings;
 import android.util.Log;
@@ -10,17 +10,17 @@ import com.google.android.gms.iid.InstanceID;
 
 import java.io.IOException;
 
-import eu.siacs.conversations.Config;
-import eu.siacs.conversations.R;
-import eu.siacs.conversations.entities.Account;
-import eu.siacs.conversations.xml.Element;
-import eu.siacs.conversations.xmpp.OnIqPacketReceived;
-import eu.siacs.conversations.xmpp.Patches;
-import eu.siacs.conversations.xmpp.XmppConnection;
-import eu.siacs.conversations.xmpp.forms.Data;
-import eu.siacs.conversations.xmpp.jid.InvalidJidException;
-import eu.siacs.conversations.xmpp.jid.Jid;
-import eu.siacs.conversations.xmpp.stanzas.IqPacket;
+import in.gndec.paigaam.Config;
+import in.gndec.paigaam.R;
+import in.gndec.paigaam.entities.Account;
+import in.gndec.paigaam.xml.Element;
+import in.gndec.paigaam.xmpp.OnIqPacketReceived;
+import in.gndec.paigaam.xmpp.Patches;
+import in.gndec.paigaam.xmpp.XmppConnection;
+import in.gndec.paigaam.xmpp.forms.Data;
+import in.gndec.paigaam.xmpp.jid.InvalidJidException;
+import in.gndec.paigaam.xmpp.jid.Jid;
+import in.gndec.paigaam.xmpp.stanzas.IqPacket;
 
 public class PushManagementService {
 

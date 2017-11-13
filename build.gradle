@@ -68,7 +68,7 @@ android {
         versionCode 239
         versionName "1.22.0"
         archivesBaseName += "-$versionName"
-        applicationId "eu.siacs.conversations"
+        applicationId "in.gndec.paigaam"
     }
 
     dexOptions {

@@ -1,4 +1,4 @@
-package eu.siacs.conversations.ui.service;
+package in.gndec.paigaam.ui.service;
 
 import android.content.Context;
 import android.support.text.emoji.EmojiCompat;
@@ -6,8 +6,8 @@ import android.support.text.emoji.FontRequestEmojiCompatConfig;
 import android.support.v4.provider.FontRequest;
 import android.util.Log;
 
-import eu.siacs.conversations.Config;
-import eu.siacs.conversations.R;
+import in.gndec.paigaam.Config;
+import in.gndec.paigaam.R;
 
 public class EmojiService extends AbstractEmojiService {
 

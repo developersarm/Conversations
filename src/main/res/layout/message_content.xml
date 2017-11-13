@@ -12,7 +12,7 @@
         android:longClickable="true"
         android:scaleType="centerCrop"/>
 
-    <eu.siacs.conversations.ui.widget.CopyTextView
+    <in.gndec.paigaam.ui.widget.CopyTextView
         android:id="@+id/message_body"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

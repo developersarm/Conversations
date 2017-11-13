@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="eu.siacs.conversations">
+    package="in.gndec.paigaam">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -33,9 +33,9 @@
         <meta-data android:name="com.google.android.gms.car.application"
             android:resource="@xml/automotive_app_desc" />
 
-        <service android:name=".services.XmppConnectionService" />
+        <service android:name="in.gndec.paigaam.services.XmppConnectionService" />
 
-        <receiver android:name=".services.EventReceiver">
+        <receiver android:name="in.gndec.paigaam.services.EventReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
@@ -45,7 +45,7 @@
         </receiver>
 
         <activity
-            android:name=".ui.ConversationActivity"
+            android:name="in.gndec.paigaam.ui.ConversationActivity"
             android:label="@string/app_name"
             android:launchMode="singleTask"
             android:minWidth="300dp"
@@ -58,7 +58,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.StartConversationActivity"
+            android:name="in.gndec.paigaam.ui.StartConversationActivity"
             android:label="@string/title_activity_start_conversation"
             android:launchMode="singleTop">
             <intent-filter>
@@ -98,57 +98,57 @@
 
         </activity>
         <activity
-            android:name=".ui.WelcomeActivity"
+            android:name="in.gndec.paigaam.ui.WelcomeActivity"
             android:label="@string/app_name"
             android:launchMode="singleTask"/>
         <activity
-            android:name=".ui.MagicCreateActivity"
+            android:name="in.gndec.paigaam.ui.MagicCreateActivity"
             android:label="@string/create_account"
             android:launchMode="singleTask"/>
         <activity
-            android:name=".ui.SetPresenceActivity"
+            android:name="in.gndec.paigaam.ui.SetPresenceActivity"
             android:configChanges="orientation|screenSize"
             android:label="@string/change_presence"
             android:launchMode="singleTop"
             android:windowSoftInputMode="stateHidden|adjustResize" />
         <activity
-            android:name=".ui.SettingsActivity"
+            android:name="in.gndec.paigaam.ui.SettingsActivity"
             android:label="@string/title_activity_settings" />
         <activity
-            android:name=".ui.ChooseContactActivity"
+            android:name="in.gndec.paigaam.ui.ChooseContactActivity"
             android:label="@string/title_activity_choose_contact" />
         <activity
-            android:name=".ui.BlocklistActivity"
+            android:name="in.gndec.paigaam.ui.BlocklistActivity"
             android:label="@string/title_activity_block_list" />
         <activity
-            android:name=".ui.ChangePasswordActivity"
+            android:name="in.gndec.paigaam.ui.ChangePasswordActivity"
             android:label="@string/change_password_on_server" />
         <activity
-            android:name=".ui.ManageAccountActivity"
+            android:name="in.gndec.paigaam.ui.ManageAccountActivity"
             android:label="@string/title_activity_manage_accounts"
             android:launchMode="singleTask" />
         <activity
-            android:name=".ui.EditAccountActivity"
+            android:name="in.gndec.paigaam.ui.EditAccountActivity"
             android:launchMode="singleTop"
             android:windowSoftInputMode="stateHidden|adjustResize" />
         <activity
-            android:name=".ui.ConferenceDetailsActivity"
+            android:name="in.gndec.paigaam.ui.ConferenceDetailsActivity"
             android:label="@string/title_activity_conference_details"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name=".ui.ContactDetailsActivity"
+            android:name="in.gndec.paigaam.ui.ContactDetailsActivity"
             android:label="@string/title_activity_contact_details"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name=".ui.PublishProfilePictureActivity"
+            android:name="in.gndec.paigaam.ui.PublishProfilePictureActivity"
             android:label="@string/mgmt_account_publish_avatar"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name=".ui.VerifyOTRActivity"
+            android:name="in.gndec.paigaam.ui.VerifyOTRActivity"
             android:label="@string/verify_otr"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name=".ui.ShareWithActivity"
+            android:name="in.gndec.paigaam.ui.ShareWithActivity"
             android:label="@string/app_name"
             android:launchMode="singleTop">
             <intent-filter>
@@ -178,7 +178,7 @@
                 android:value=".services.ContactChooserTargetService" />
         </activity>
         <activity
-            android:name=".ui.TrustKeysActivity"
+            android:name="in.gndec.paigaam.ui.TrustKeysActivity"
             android:label="@string/trust_omemo_fingerprints"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
@@ -186,18 +186,18 @@
             android:theme="@style/ConversationsTheme"
             tools:replace="android:theme" />
         <activity
-            android:name=".ui.AboutActivity"
+            android:name="in.gndec.paigaam.ui.AboutActivity"
             android:label="@string/title_activity_about"
-            android:parentActivityName=".ui.SettingsActivity">
+            android:parentActivityName="in.gndec.paigaam.ui.SettingsActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="eu.siacs.conversations.ui.SettingsActivity" />
+                android:value="in.gndec.paigaam.ui.SettingsActivity" />
         </activity>
         <activity android:name="com.soundcloud.android.crop.CropImageActivity" />
 
-        <service android:name=".services.ExportLogsService" />
+        <service android:name="in.gndec.paigaam.services.ExportLogsService" />
         <service
-            android:name=".services.ContactChooserTargetService"
+            android:name="in.gndec.paigaam.services.ContactChooserTargetService"
             android:permission="android.permission.BIND_CHOOSER_TARGET_SERVICE">
             <intent-filter>
                 <action android:name="android.service.chooser.ChooserTargetService" />
@@ -215,7 +215,7 @@
         </provider>
         <provider
             android:authorities="${applicationId}.barcodes"
-            android:name=".services.BarcodeProvider"
+            android:name="in.gndec.paigaam.services.BarcodeProvider"
             android:exported="false"
             android:grantUriPermissions="true"/>
 

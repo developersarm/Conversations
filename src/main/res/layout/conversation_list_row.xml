@@ -112,7 +112,7 @@
                         android:alpha="?attr/icon_alpha"
                         android:src="?attr/icon_notifications"
                         />
-                    <eu.siacs.conversations.ui.widget.UnreadCountCustomView
+                    <in.gndec.paigaam.ui.widget.UnreadCountCustomView
                         android:id="@+id/unread_count"
                         android:layout_width="?attr/IconSize"
                         android:layout_height="?attr/IconSize"
