@@ -1,4 +1,4 @@
-package eu.siacs.conversations.services;
+package in.gndec.paigaam.services;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -9,7 +9,7 @@ import com.google.android.gms.iid.InstanceID;
 
 import java.io.IOException;
 
-import eu.siacs.conversations.Config;
+import in.gndec.paigaam.Config;
 
 public class MaintenanceReceiver extends BroadcastReceiver {
 	@Override

@@ -1,4 +1,4 @@
-package eu.siacs.conversations.services;
+package in.gndec.paigaam.services;
 
 import android.content.Intent;
 

@@ -1,4 +1,4 @@
-package eu.siacs.conversations.services;
+package in.gndec.paigaam.services;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,7 +6,7 @@ import android.util.Log;
 
 import com.google.android.gms.gcm.GcmListenerService;
 
-import eu.siacs.conversations.Config;
+import in.gndec.paigaam.Config;
 
 public class PushMessageReceiver extends GcmListenerService {
 
