@@ -49,7 +49,7 @@ dependencies {
     compile 'com.kyleduo.switchbutton:library:1.2.8'
     compile 'org.whispersystems:signal-protocol-java:2.6.2'
     compile 'com.makeramen:roundedimageview:2.3.0'
-    compile "com.wefika:flowlayout:0.4.1"
+    compile 'com.wefika:flowlayout:0.4.1'
     compile 'net.ypresto.androidtranscoder:android-transcoder:0.2.0'
 }
 

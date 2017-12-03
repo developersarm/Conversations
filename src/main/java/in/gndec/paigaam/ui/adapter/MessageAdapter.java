@@ -638,14 +638,14 @@ public class MessageAdapter extends ArrayAdapter<Message> implements CopyTextVie
 					viewHolder.image = view.findViewById(R.id.message_image);
 					viewHolder.messageBody = view.findViewById(R.id.message_body);
 					viewHolder.time = view.findViewById(R.id.message_time);
-					viewHolder.indicatorReceived = view.findViewById(R.id.indicator_received);
+					viewHolder.indicatorReceived = (ImageView) (ImageView) view.findViewById(R.id.indicator_received);
 					viewHolder.audioPlayer = view.findViewById(R.id.audio_player);
 					break;
 				case RECEIVED:
 					view = activity.getLayoutInflater().inflate(R.layout.message_received, parent, false);
 					viewHolder.message_box = view.findViewById(R.id.message_box);
 					viewHolder.contact_picture = view.findViewById(R.id.message_photo);
-					viewHolder.download_button = view.findViewById(R.id.download_button);
+					viewHolder.download_button = (Button) view.findViewById(R.id.download_button);
 					viewHolder.indicator = view.findViewById(R.id.security_indicator);
 					viewHolder.edit_indicator = view.findViewById(R.id.edit_indicator);
 					viewHolder.image = view.findViewById(R.id.message_image);

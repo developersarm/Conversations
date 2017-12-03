@@ -2,12 +2,12 @@
 <resources>
 	<string name="app_name" translatable="false">Paigaam</string>
 	<string name="action_settings">Settings</string>
-	<string name="action_add">New conversation</string>
+	<string name="action_add">New Paigaam</string>
 	<string name="action_accounts">Manage accounts</string>
-	<string name="action_end_conversation">End this conversation</string>
+	<string name="action_end_conversation">End this Paigaam</string>
 	<string name="action_contact_details">Contact details</string>
-	<string name="action_muc_details">Conference details</string>
-	<string name="action_secure">Secure conversation</string>
+	<string name="action_muc_details">Group details</string>
+	<string name="action_secure">Secure Paigaam</string>
 	<string name="action_add_account">Add account</string>
 	<string name="action_edit_contact">Edit name</string>
 	<string name="action_add_phone_book">Add to address book</string>
@@ -18,16 +18,16 @@
 	<string name="action_unblock_domain">Unblock domain</string>
 	<string name="title_activity_manage_accounts">Manage Accounts</string>
 	<string name="title_activity_settings">Settings</string>
-	<string name="title_activity_conference_details">Conference Details</string>
+	<string name="title_activity_conference_details">Group Details</string>
 	<string name="title_activity_contact_details">Contact Details</string>
-	<string name="title_activity_sharewith">Share with Conversation</string>
-	<string name="title_activity_start_conversation">Start Conversation</string>
+	<string name="title_activity_sharewith">Share with Paigaam</string>
+	<string name="title_activity_start_conversation">Start Paigaam</string>
 	<string name="title_activity_choose_contact">Choose contact</string>
 	<string name="title_activity_block_list">Block list</string>
 	<string name="just_now">just now</string>
 	<string name="minute_ago">1 min ago</string>
 	<string name="minutes_ago">%d mins ago</string>
-	<string name="unread_conversations">unread Conversations</string>
+	<string name="unread_conversations">unread Paigaams</string>
 	<string name="sending">sending…</string>
 	<string name="message_decrypting">Decrypting message. Please wait…</string>
 	<string name="pgp_message">OpenPGP encrypted message</string>
@@ -37,17 +37,17 @@
 	<string name="moderator">Moderator</string>
 	<string name="participant">Participant</string>
 	<string name="visitor">Visitor</string>
-	<string name="remove_contact_text">Would you like to remove %s from your roster? The conversation associated with this contact will not be removed.</string>
+	<string name="remove_contact_text">Would you like to remove %s from your roster? The Paigaam associated with this contact will not be removed.</string>
 	<string name="block_contact_text">Would you like to block %s from sending you messages?</string>
 	<string name="unblock_contact_text">Would you like to unblock %s and allow them to send you messages?</string>
 	<string name="block_domain_text">Block all contacts from %s?</string>
 	<string name="unblock_domain_text">Unblock all contacts from %s?</string>
 	<string name="contact_blocked">Contact blocked</string>
-	<string name="remove_bookmark_text">Would you like to remove %s as a bookmark? The conversation associated with this bookmark will not be removed.</string>
+	<string name="remove_bookmark_text">Would you like to remove %s as a bookmark? The Paigaam associated with this bookmark will not be removed.</string>
 	<string name="register_account">Register new account on server</string>
 	<string name="change_password_on_server">Change password on server</string>
 	<string name="share_with">Share with…</string>
-	<string name="start_conversation">Start Conversation</string>
+	<string name="start_conversation">Start Paigaam</string>
 	<string name="invite_contact">Invite Contact</string>
 	<string name="contacts">Contacts</string>
 	<string name="cancel">Cancel</string>
@@ -59,8 +59,8 @@
 	<string name="unblock">Unblock</string>
 	<string name="save">Save</string>
 	<string name="ok">OK</string>
-	<string name="crash_report_title">Conversations has crashed</string>
-	<string name="crash_report_message">By sending in stack traces you are helping the ongoing development of Conversations\n<b>Warning:</b> This will use your XMPP account to send the stack trace to the developer.</string>
+	<string name="crash_report_title">Paigaam has crashed</string>
+	<string name="crash_report_message">By sending in stack traces you are helping the ongoing development of Paigaam\n<b>Warning:</b> This will use your XMPP account to send the stack trace to the developer.</string>
 	<string name="send_now">Send now</string>
 	<string name="send_never">Never ask again</string>
 	<string name="problem_connecting_to_account">Unable to connect to account</string>
@@ -74,10 +74,10 @@
 	<string name="preparing_images">Preparing images for transmission</string>
 	<string name="sharing_files_please_wait">Sharing files. Please wait…</string>
 	<string name="action_clear_history">Clear history</string>
-	<string name="clear_conversation_history">Clear Conversation History</string>
-	<string name="clear_histor_msg">Do you want to delete all messages within this Conversation?\n\n<b>Warning:</b> This will not influence messages stored on other devices or servers.</string>
+	<string name="clear_conversation_history">Clear Paigaam History</string>
+	<string name="clear_histor_msg">Do you want to delete all messages within this Paigaam?\n\n<b>Warning:</b> This will not influence messages stored on other devices or servers.</string>
 	<string name="delete_messages">Delete messages</string>
-	<string name="also_end_conversation">End this conversation afterwards</string>
+	<string name="also_end_conversation">End this Paigaam afterwards</string>
 	<string name="choose_presence">Choose device</string>
 	<string name="send_unencrypted_message">Send unencrypted message</string>
 	<string name="send_message">Send message</string>
@@ -90,16 +90,16 @@
 	<string name="send_unencrypted">Send unencrypted</string>
 	<string name="decryption_failed">Decryption failed. Maybe you don’t have the proper private key.</string>
 	<string name="openkeychain_required">OpenKeychain</string>
-	<string name="openkeychain_required_long">Conversations utilizes a third party app called <b>OpenKeychain</b> to encrypt and decrypt messages and to manage your public keys.\n\nOpenKeychain is licensed under GPLv3 and available on F-Droid and Google Play.\n\n<small>(Please restart Conversations afterwards.)</small></string>
+	<string name="openkeychain_required_long">Paigaam utilizes a third party app called <b>OpenKeychain</b> to encrypt and decrypt messages and to manage your public keys.\n\nOpenKeychain is licensed under GPLv3 and available on F-Droid and Google Play.\n\n<small>(Please restart Paigaam afterwards.)</small></string>
 	<string name="restart">Restart</string>
 	<string name="install">Install</string>
 	<string name="openkeychain_not_installed">Please install OpenKeychain</string>
 	<string name="offering">offering…</string>
 	<string name="waiting">waiting…</string>
 	<string name="no_pgp_key">No OpenPGP Key found</string>
-	<string name="contact_has_no_pgp_key">Conversations is unable to encrypt your messages because your contact is not announcing his or hers public key.\n\n<small>Please ask your contact to setup OpenPGP.</small></string>
+	<string name="contact_has_no_pgp_key">Paigaam is unable to encrypt your messages because your contact is not announcing his or hers public key.\n\n<small>Please ask your contact to setup OpenPGP.</small></string>
 	<string name="no_pgp_keys">No OpenPGP Keys found</string>
-	<string name="contacts_have_no_pgp_keys">Conversations is unable to encrypt your messages because your contacts are not announcing their public key.\n\n<small>Please ask your contacts to setup OpenPGP.</small></string>
+	<string name="contacts_have_no_pgp_keys">Paigaam is unable to encrypt your messages because your contacts are not announcing their public key.\n\n<small>Please ask your contacts to setup OpenPGP.</small></string>
 	<string name="pref_general">General</string>
 	<string name="pref_xmpp_resource">XMPP resource</string>
 	<string name="pref_xmpp_resource_summary">The name this client identifies itself with</string>
@@ -107,7 +107,7 @@
 	<string name="pref_accept_files_summary">Automatically accept files smaller than…</string>
 	<string name="pref_attachments">Attachments</string>
 	<string name="pref_return_to_previous">Quick Sharing</string>
-	<string name="pref_return_to_previous_summary">Immediately return to previous activity instead of opening the conversation after sharing something</string>
+	<string name="pref_return_to_previous_summary">Immediately return to previous activity instead of opening the Paigaam after sharing something</string>
 	<string name="pref_notification_settings">Notification</string>
 	<string name="pref_notifications">Notifications</string>
 	<string name="pref_notifications_summary">Notify when a new message arrives</string>
@@ -118,10 +118,10 @@
 	<string name="pref_sound">Ringtone</string>
 	<string name="pref_sound_summary">Play sound when a new message arrives</string>
 	<string name="pref_notification_grace_period">Grace Period</string>
-	<string name="pref_notification_grace_period_summary">The length of time Conversations keeps quiet after seeing activity on another device</string>
+	<string name="pref_notification_grace_period_summary">The length of time Paigaam keeps quiet after seeing activity on another device</string>
 	<string name="pref_advanced_options">Advanced</string>
 	<string name="pref_never_send_crash">Never send crash reports</string>
-	<string name="pref_never_send_crash_summary">By sending in stack traces you are helping the ongoing development of Conversations</string>
+	<string name="pref_never_send_crash_summary">By sending in stack traces you are helping the ongoing development of Paigaam</string>
 	<string name="pref_confirm_messages">Confirm Messages</string>
 	<string name="pref_confirm_messages_summary">Let your contacts know when you have received and read their messages</string>
 	<string name="pref_ui_options">UI</string>
@@ -172,17 +172,17 @@
 	<string name="republish_pgp_keys">Remember to republish your OpenPGP public keys!</string>
 	<string name="mgmt_account_enable">Enable account</string>
 	<string name="mgmt_account_are_you_sure">Are you sure?</string>
-	<string name="mgmt_account_delete_confirm_text">If you delete your account, your entire conversation history will be lost</string>
+	<string name="mgmt_account_delete_confirm_text">If you delete your account, your entire Paigaam history will be lost</string>
 	<string name="attach_record_voice">Record voice</string>
-	<string name="account_settings_jabber_id">Jabber ID</string>
-	<string name="block_jabber_id">Block Jabber ID</string>
+	<string name="account_settings_jabber_id">Paigaam ID</string>
+	<string name="block_jabber_id">Block Paigaam ID</string>
 	<string name="account_settings_password">Password</string>
-	<string name="account_settings_example_jabber_id">username@example.com</string>
+	<string name="account_settings_example_jabber_id">username@ambivert.com</string>
 	<string name="account_settings_confirm_password">Confirm password</string>
 	<string name="password">Password</string>
 	<string name="confirm_password">Confirm password</string>
 	<string name="passwords_do_not_match">Passwords do not match</string>
-	<string name="invalid_jid">This is not a valid Jabber ID</string>
+	<string name="invalid_jid">This is not a valid Paigaam ID</string>
 	<string name="error_out_of_memory">Out of memory. Image is too large</string>
 	<string name="add_phone_book_text">Do you want to add %s to your address book?</string>
 	<string name="server_info_show_more">Server info</string>
@@ -222,11 +222,11 @@
 	<string name="done">Done</string>
 	<string name="verify">Verify</string>
 	<string name="decrypt">Decrypt</string>
-	<string name="conferences">Conferences</string>
+	<string name="conferences">Groups</string>
 	<string name="search">Search</string>
 	<string name="create_contact">Create Contact</string>
 	<string name="enter_contact">Enter Contact</string>
-	<string name="join_conference">Join Conference</string>
+	<string name="join_conference">Join Group</string>
 	<string name="delete_contact">Delete Contact</string>
 	<string name="view_contact_details">View contact details</string>
 	<string name="block_contact">Block contact</string>
@@ -235,14 +235,14 @@
 	<string name="select">Select</string>
 	<string name="contact_already_exists">The contact already exists</string>
 	<string name="join">Join</string>
-	<string name="conference_address">Conference address</string>
-	<string name="conference_address_example">room@conference.example.com/nick</string>
+	<string name="conference_address">Group address</string>
+	<string name="conference_address_example">room@group.example.com/nick</string>
 	<string name="save_as_bookmark">Save as bookmark</string>
 	<string name="delete_bookmark">Delete bookmark</string>
 	<string name="bookmark_already_exists">This bookmark already exists</string>
-	<string name="action_edit_subject">Edit conference subject</string>
-	<string name="edit_subject_hint">The subject of this conference</string>
-	<string name="joining_conference">Joining conference…</string>
+	<string name="action_edit_subject">Edit Group subject</string>
+	<string name="edit_subject_hint">The subject of this Group</string>
+	<string name="joining_conference">Joining Group…</string>
 	<string name="leave">Leave</string>
 	<string name="contact_added_you">Contact added you to contact list</string>
 	<string name="add_back">Add back</string>
@@ -266,7 +266,7 @@
 	<string name="skip">Skip</string>
 	<string name="disable_notifications">Disable notifications</string>
 	<string name="enable">Enable</string>
-	<string name="conference_requires_password">Conference requires password</string>
+	<string name="conference_requires_password">Group requires password</string>
 	<string name="enter_password">Enter password</string>
 	<string name="missing_presence_subscription">Missing presence subscription</string>
 	<string name="request_presence_updates">Please request presence updates from your contact first.\n\n<small>This will be used to determine what client(s) your contact is using.</small></string>
@@ -280,11 +280,11 @@
 	<string name="pref_allow_message_correction_summary">Allow your contacts to retroactively edit their messages</string>
 	<string name="pref_expert_options">Expert settings</string>
 	<string name="pref_expert_options_summary">Please be careful with these</string>
-	<string name="title_activity_about">About Conversations</string>
+	<string name="title_activity_about">About Paigaam</string>
 	<string name="pref_about_conversations_summary">Build and licensing information</string>
 	<string name="pref_about_message" translatable="false">
-			Conversations • the very last word in instant messaging.
-			\n\nCopyright © 2014-2017 Daniel Gultsch
+			Paigaam • the very last word in instant messaging.
+			\n\nCopyright © 2017 Gurnoor Singh Abhay Yadav
 			\n\nThis program is free software: you can redistribute it and/or modify
 			it under the terms of the GNU General Public License as published by
 			the Free Software Foundation, either version 3 of the License, or
@@ -295,7 +295,7 @@
 			GNU General Public License for more details.
 			\n\nYou should have received a copy of the GNU General Public License
 			along with this program. If not, see https://www.gnu.org/licenses
-			\n\nDownload the full source code at https://github.com/siacs/Conversations
+			\n\nDownload the full source code at https://github.com/developersarm/Paigaam/
 			\n\n\nLibraries
 			\n\nhttps://www.bouncycastle.org\n(The MIT License (MIT))
 			\n\nhttps://www.gnu.org/software/libidn\n(Apache License, Version 2.0)
@@ -325,17 +325,17 @@
 	<string name="pref_use_indicate_received_summary">Received messages will be marked with a green tick if supported</string>
 	<string name="pref_use_send_button_to_indicate_status_summary">Colorize send button to indicate contact status</string>
 	<string name="pref_expert_options_other">Other</string>
-	<string name="pref_conference_name">Conference name</string>
-	<string name="pref_conference_name_summary">Use room’s subject instead of JID to identify conferences</string>
-	<string name="pref_autojoin">Automatically join conferences</string>
-	<string name="pref_autojoin_summary">Respect the autojoin flag in conference bookmarks</string>
+	<string name="pref_conference_name">Group name</string>
+	<string name="pref_conference_name_summary">Use room’s subject instead of Paigaam to identify Group</string>
+	<string name="pref_autojoin">Automatically join Group</string>
+	<string name="pref_autojoin_summary">Respect the autojoin flag in Group bookmarks</string>
 	<string name="toast_message_otr_fingerprint">OTR fingerprint copied to clipboard!</string>
 	<string name="toast_message_omemo_fingerprint">OMEMO fingerprint copied to clipboard!</string>
-	<string name="conference_banned">You are banned from this conference</string>
-	<string name="conference_members_only">This conference is members only</string>
-	<string name="conference_kicked">You have been kicked from this conference</string>
-	<string name="conference_shutdown">The conference was shut down</string>
-	<string name="conference_unknown_error">You are no longer in this conference</string>
+	<string name="conference_banned">You are banned from this Group</string>
+	<string name="conference_members_only">This Group is members only</string>
+	<string name="conference_kicked">You have been kicked from this Group</string>
+	<string name="conference_shutdown">The Group was shut down</string>
+	<string name="conference_unknown_error">You are no longer in this Group</string>
 	<string name="using_account">using account %s</string>
 	<string name="checking_x">Checking %s on HTTP host</string>
 	<string name="not_connected_try_again">You are not connected. Try again later</string>
@@ -364,11 +364,11 @@
 	<string name="verified">Verified!</string>
 	<string name="smp_requested">Contact requested SMP verification</string>
 	<string name="no_otr_session_found">No valid OTR session has been found!</string>
-	<string name="conversations_foreground_service">Conversations</string>
+	<string name="conversations_foreground_service">Paigaams</string>
 	<string name="pref_keep_foreground_service">Keep service in foreground</string>
 	<string name="pref_keep_foreground_service_summary">Prevents the operating system from killing your connection</string>
 	<string name="pref_export_logs">Export history</string>
-	<string name="pref_export_logs_summary">Write conversations history logs to SD card</string>
+	<string name="pref_export_logs_summary">Write Paigaams history logs to SD card</string>
 	<string name="notification_export_logs_title">Writing logs to SD card</string>
 	<string name="choose_file">Choose file</string>
 	<string name="receiving_x_file">Receiving %1$s (%2$d%% completed)</string>
@@ -390,8 +390,8 @@
 	<string name="pref_show_dynamic_tags">Show dynamic tags</string>
 	<string name="pref_show_dynamic_tags_summary">Display read-only tags underneath contacts</string>
 	<string name="enable_notifications">Enable notifications</string>
-	<string name="no_conference_server_found">No conference server found</string>
-	<string name="conference_creation_failed">Conference creation failed!</string>
+	<string name="no_conference_server_found">No group server found</string>
+	<string name="conference_creation_failed">Group creation failed!</string>
 	<string name="account_image_description">Account avatar</string>
 	<string name="copy_otr_clipboard_description">Copy OTR fingerprint to clipboard</string>
 	<string name="copy_omemo_clipboard_description">Copy OMEMO fingerprint to clipboard</string>
@@ -430,21 +430,21 @@
 	<string name="remove_membership">Revoke membership</string>
 	<string name="grant_admin_privileges">Grant admin privileges</string>
 	<string name="remove_admin_privileges">Revoke admin privileges</string>
-	<string name="remove_from_room">Remove from conference</string>
+	<string name="remove_from_room">Remove from Group</string>
 	<string name="could_not_change_affiliation">Could not change affiliation of %s</string>
-	<string name="ban_from_conference">Ban from conference</string>
-	<string name="removing_from_public_conference">You are trying to remove %s from a public conference. The only way to do that is to ban that user for ever.</string>
+	<string name="ban_from_conference">Ban from Group</string>
+	<string name="removing_from_public_conference">You are trying to remove %s from a public group. The only way to do that is to ban that user for ever.</string>
 	<string name="ban_now">Ban now</string>
 	<string name="could_not_change_role">Could not change role of %s</string>
-	<string name="public_conference">Publicly accessible conference</string>
-	<string name="private_conference">Private, members only conference</string>
-	<string name="conference_options">Conference options</string>
+	<string name="public_conference">Publicly accessible group</string>
+	<string name="private_conference">Private, members only group</string>
+	<string name="conference_options">Group options</string>
 	<string name="members_only">Private, members only</string>
 	<string name="non_anonymous">Non-anonymous</string>
 	<string name="moderated">Moderated</string>
 	<string name="you_are_not_participating">You are not participating</string>
-	<string name="modified_conference_options">Modified conference options!</string>
-	<string name="could_not_modify_conference_options">Could not modify conference options</string>
+	<string name="modified_conference_options">Modified group options!</string>
+	<string name="could_not_modify_conference_options">Could not modify group options</string>
 	<string name="never">Never</string>
 	<string name="thirty_minutes">30 minutes</string>
 	<string name="one_hour">1 hour</string>
@@ -464,7 +464,7 @@
 	<string name="vcard">Contact</string>
 	<string name="received_x_file">Received %s</string>
 	<string name="disable_foreground_service">Disable foreground service</string>
-	<string name="touch_to_open_conversations">Touch to open Conversations</string>
+	<string name="touch_to_open_conversations">Touch to open Paigaams</string>
 	<string name="avatar_has_been_published">Avatar has been published!</string>
 	<string name="sending_x_file">Sending %s</string>
 	<string name="offering_x_file">Offering %s</string>
@@ -480,8 +480,8 @@
 	<string name="no_application_found_to_display_location">No application found to display location</string>
 	<string name="location">Location</string>
 	<string name="received_location">Received location</string>
-	<string name="title_undo_swipe_out_conversation">Conversation closed</string>
-	<string name="title_undo_swipe_out_muc">Left conference</string>
+	<string name="title_undo_swipe_out_conversation">Paigaam closed</string>
+	<string name="title_undo_swipe_out_muc">Left Group</string>
 	<string name="pref_dont_trust_system_cas_title">Don’t trust system CAs</string>
 	<string name="pref_dont_trust_system_cas_summary">All certificates must be manually approved</string>
 	<string name="pref_remove_trusted_certificates_title">Remove certificates</string>
@@ -505,7 +505,7 @@
 	<string name="choose_quick_action">Choose quick action</string>
 	<string name="search_for_contacts_or_groups">Search for contacts or groups</string>
 	<string name="send_private_message">Send private message</string>
-	<string name="user_has_left_conference">%s has left the conference!</string>
+	<string name="user_has_left_conference">%s has left the group!</string>
 	<string name="username">Username</string>
 	<string name="username_hint">Username</string>
 	<string name="invalid_username">This is not a valid username</string>
@@ -560,9 +560,9 @@
 	<string name="shared_image_with_x">Shared image with %s</string>
 	<string name="shared_images_with_x">Shared images with %s</string>
 	<string name="shared_text_with_x">Shared text with %s</string>
-	<string name="no_storage_permission">Conversations need access to external storage</string>
+	<string name="no_storage_permission">Paigaams need access to external storage</string>
 	<string name="sync_with_contacts">Synchronize with contacts</string>
-	<string name="sync_with_contacts_long">Conversations wants to match your XMPP roster with your contacts to show their full names and avatars.\n\nConversations will only read your contacts and match them locally without uploading them to your server.\n\nYou will now be asked to grant permission to access your contacts.</string>
+	<string name="sync_with_contacts_long">Paigaams wants to match your XMPP roster with your contacts to show their full names and avatars.\n\nPaigaams will only read your contacts and match them locally without uploading them to your server.\n\nYou will now be asked to grant permission to access your contacts.</string>
 	<string name="certificate_information">Certificate Information</string>
 	<string name="certificate_subject">Subject</string>
 	<string name="certificate_issuer">Issuer</string>
@@ -580,23 +580,23 @@
 	<string name="always">Always</string>
 	<string name="automatically">Automatically</string>
 	<string name="battery_optimizations_enabled">Battery optimizations enabled</string>
-	<string name="battery_optimizations_enabled_explained">Your device is doing some heavy battery optimizations on Conversations that might lead to delayed notifications or even message loss.\nIt is recommended to disable those.</string>
-	<string name="battery_optimizations_enabled_dialog">Your device is doing some heavy battery optimizations on Conversations that might lead to delayed notifications or even message loss.\n\nYou will now be asked to disable those.</string>
+	<string name="battery_optimizations_enabled_explained">Your device is doing some heavy battery optimizations on Paigaams that might lead to delayed notifications or even message loss.\nIt is recommended to disable those.</string>
+	<string name="battery_optimizations_enabled_dialog">Your device is doing some heavy battery optimizations on Paigaams that might lead to delayed notifications or even message loss.\n\nYou will now be asked to disable those.</string>
 	<string name="disable">Disable</string>
 	<string name="selection_too_large">The selected area is too large</string>
 	<string name="no_accounts">(No activated accounts)</string>
 	<string name="this_field_is_required">This field is required</string>
 	<string name="correct_message">Correct message</string>
 	<string name="send_corrected_message">Send corrected message</string>
-	<string name="no_keys_just_confirm">You already trust this contact. By selecting \'done\' you are just confirming that %s is part of this conference.</string>
+	<string name="no_keys_just_confirm">You already trust this contact. By selecting \'done\' you are just confirming that %s is part of this group.</string>
 	<string name="select_image_and_crop">Select image and crop</string>
 	<string name="this_account_is_disabled">You have disabled this account</string>
 	<string name="security_error_invalid_file_access">Security error: Invalid file access</string>
 	<string name="no_application_to_share_uri">No application found to share URI</string>
 	<string name="share_uri_with">Share URI with…</string>
-	<string translatable="false" name="welcome_header">Join the Conversation</string>
-	<string name="welcome_text">XMPP is a provider independent protocol. You can use this client with what ever XMPP server you choose.\nHowever for your convenience we made it easy to create an account on conversations.im¹; a provider specially suited for the use with Conversations.</string>
-	<string name="magic_create_text">We will guide you through the process of creating an account on conversations.im.¹\nWhen picking conversations.im as a provider you will be able to communicate with users of other providers by giving them your full Jabber ID.</string>
+	<string translatable="false" name="welcome_header">Join the Paigaam</string>
+	<string name="welcome_text">XMPP is a provider independent protocol. You can use this client with what ever XMPP server you choose.\nHowever for your convenience we made it easy to create an account on paigaams.im¹; a provider specially suited for the use with Paigaams.</string>
+	<string name="magic_create_text">We will guide you through the process of creating an account on Paigaams.im.¹\nWhen picking Paigaams.im as a provider you will be able to communicate with users of other providers by giving them your full Jabber ID.</string>
 	<string name="your_full_jid_will_be">Your full Jabber ID will be: %s</string>
 	<string name="create_account">Create Account</string>
 	<string name="use_own_provider">Use my own provider</string>
@@ -616,17 +616,17 @@
 	<string name="show_password">Show password</string>
 	<string name="registration_please_wait">Registration failed: Try again later</string>
 	<string name="registration_password_too_weak">Registration failed: Password too weak</string>
-	<string name="create_conference">Create conference</string>
-	<string name="join_or_create_conference">Join or create conference</string>
+	<string name="create_conference">Create group</string>
+	<string name="join_or_create_conference">Join or create group</string>
 	<string name="conference_subject">Subject</string>
 	<string name="choose_participants">Choose participants</string>
-	<string name="creating_conference">Creating conference…</string>
+	<string name="creating_conference">Creating Group…</string>
 	<string name="invite_again">Invite again</string>
 	<string name="gp_short">Short</string>
 	<string name="gp_medium">Medium</string>
 	<string name="gp_long">Long</string>
 	<string name="pref_broadcast_last_activity">Broadcast Last User Interaction</string>
-	<string name="pref_broadcast_last_activity_summary">Let all your contacts know when you use Conversations</string>
+	<string name="pref_broadcast_last_activity_summary">Let all your contacts know when you use Paigaams</string>
 	<string name="pref_privacy">Privacy</string>
 	<string name="pref_theme_options">Theme</string>
 	<string name="pref_theme_options_summary">Select the color palette</string>
@@ -652,8 +652,8 @@
 	<string name="missing_presence_subscription_with_x">Missing presence subscription with %s.</string>
 	<string name="missing_keys_from_x">Missing OMEMO keys from %s.</string>
 	<string name="missing_omemo_keys">Missing OMEMO keys</string>
-	<string name="wrong_conference_configuration">This is not a private, non-anonymous conference.</string>
-	<string name="this_conference_has_no_members">There are no members in this conference.</string>
+	<string name="wrong_conference_configuration">This is not a private, non-anonymous group.</string>
+	<string name="this_conference_has_no_members">There are no members in this group.</string>
 	<string name="report_jid_as_spammer">Report this JID as sending unwanted messages.</string>
 	<string name="pref_delete_omemo_identities">Delete OMEMO identities</string>
 	<string name="pref_delete_omemo_identities_summary">Regenerate your OMEMO keys. All your contacts will have to verify you again. Use this only as a last resort.</string>
@@ -662,13 +662,13 @@
 	<string name="show_error_message">Show error message</string>
 	<string name="error_message">Error Message</string>
 	<string name="data_saver_enabled">Data saver enabled</string>
-	<string name="data_saver_enabled_explained">Your operating system is restricting Conversations from accessing the Internet when in background. To receive notifications of new messages you should allow Conversations unrestricted access when Data saver is on.\nConversations will still make an effort to save data when possible.</string>
-	<string name="device_does_not_support_data_saver">Your device does not support disabling Data saver for Conversations.</string>
+	<string name="data_saver_enabled_explained">Your operating system is restricting Paigaams from accessing the Internet when in background. To receive notifications of new messages you should allow Paigaams unrestricted access when Data saver is on.\nPaigaams will still make an effort to save data when possible.</string>
+	<string name="device_does_not_support_data_saver">Your device does not support disabling Data saver for Paigaams.</string>
 	<string name="error_unable_to_create_temporary_file">Unable to create temporary file</string>
 	<string name="this_device_has_been_verified">This device has been verified</string>
 	<string name="copy_fingerprint">Copy fingerprint</string>
 	<string name="all_omemo_keys_have_been_verified">All OMEMO keys have been verified</string>
-	<string name="barcode_does_not_contain_fingerprints_for_this_conversation">Barcode does not contain fingerprints for this conversation.</string>
+	<string name="barcode_does_not_contain_fingerprints_for_this_conversation">Barcode does not contain fingerprints for this Paigaam.</string>
 	<string name="verified_fingerprints">Verified fingerprints</string>
 	<string name="use_camera_icon_to_scan_barcode">Use the camera to scan a contact’s barcode</string>
 	<string name="please_wait_for_keys_to_be_fetched">Please wait for keys to be fetched</string>
@@ -700,7 +700,7 @@
 	<string name="encrypting_message">Encrypting message</string>
 	<string name="not_fetching_history_retention_period">Not fetching messages due to local retention period.</string>
 	<string name="transcoding_video">Compressing video</string>
-	<string name="corresponding_conversations_closed">Corresponding conversations closed.</string>
+	<string name="corresponding_conversations_closed">Corresponding Paigaams closed.</string>
 	<string name="contact_blocked_past_tense">Contact blocked.</string>
 	<string name="pref_notifications_from_strangers">Notifications from strangers</string>
 	<string name="pref_notifications_from_strangers_summary">Notify for messages received from strangers.</string>
