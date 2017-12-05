@@ -35,25 +35,27 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:text="@string/welcome_text"
                 android:textColor="?attr/color_text_primary"
                 android:textSize="?attr/TextSizeBody"/>
-            <Button
-                android:id="@+id/create_account"
-                style="?android:attr/borderlessButtonStyle"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="right"
-                android:text="@string/create_account"
-                android:textColor="@color/accent"/>
             <Button
                 android:id="@+id/use_own_provider"
                 style="?android:attr/borderlessButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
-                android:text="@string/use_own_provider"
+                android:text="Login"
                 android:textColor="?attr/color_text_secondary"/>
+
+            <Button
+                android:id="@+id/create_account"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/create_account"
+                android:textColor="@color/accent"
+                android:visibility="gone" />
+
         </LinearLayout>
         <RelativeLayout
             android:layout_width="match_parent"
@@ -79,7 +81,7 @@
             android:textColor="?attr/color_text_secondary"
             android:textSize="@dimen/fineprint_size"
             android:maxLines="1"
-            android:text="@string/free_for_six_month"
+            android:text="Made by Gurnoor Singh and Abhay Yadav"
             android:layout_centerHorizontal="true"/>
     </RelativeLayout>
 </ScrollView>
