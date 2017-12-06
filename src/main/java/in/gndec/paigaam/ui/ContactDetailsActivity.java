@@ -181,7 +181,7 @@ public class ContactDetailsActivity extends OmemoActivity implements OnAccountUp
 
 	@Override
 	protected String getShareableUri(boolean http) {
-		final String prefix = http ? "https://conversations.im/i/" : "xmpp:";
+		final String prefix = http ? "https://ambivert.me/i/" : "xmpp:";
 		if (contact != null) {
 			return prefix+contact.getJid().toBareJid().toString();
 		} else {

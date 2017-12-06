@@ -44,7 +44,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
                 android:text="Login"
-                android:textColor="?attr/color_text_secondary"/>
+                android:textColor="@color/accent"/>
 
             <Button
                 android:id="@+id/create_account"

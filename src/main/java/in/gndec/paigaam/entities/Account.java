@@ -661,7 +661,7 @@ public class Account extends AbstractEntity {
 
 	public String getShareableLink() {
 		List<XmppUri.Fingerprint> fingerprints = this.getFingerprints();
-		String uri = "https://conversations.im/i/"+this.getJid().toBareJid().toString();
+		String uri = "https://ambivert.me/i/"+this.getJid().toBareJid().toString();
 		if (fingerprints.size() > 0) {
 			return XmppUri.getFingerprintUri(uri,fingerprints,'&');
 		} else {
