@@ -17,5 +17,7 @@
         <item name="thumb_margin">-17dp</item>
         <item name="android:padding">16dp</item>
     </style>
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+    </style>
 
 </resources>
