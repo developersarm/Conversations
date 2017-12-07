@@ -177,7 +177,7 @@
 	<string name="account_settings_jabber_id">Paigaam ID</string>
 	<string name="block_jabber_id">Block Paigaam ID</string>
 	<string name="account_settings_password">Password</string>
-	<string name="account_settings_example_jabber_id">username@ambivert.com</string>
+	<string name="account_settings_example_jabber_id">username@ambivert.me</string>
 	<string name="account_settings_confirm_password">Confirm password</string>
 	<string name="password">Password</string>
 	<string name="confirm_password">Confirm password</string>
