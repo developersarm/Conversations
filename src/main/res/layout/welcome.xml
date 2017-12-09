@@ -15,30 +15,30 @@
             android:layout_alignParentBottom="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:gravity="center"
+            android:gravity="top|center"
             android:minHeight="256dp"
             android:orientation="vertical"
             android:paddingBottom="10dp"
             android:paddingLeft="16dp"
             android:paddingRight="16dp">
 
-            <!--Space
-                android:layout_width="match_parent"
-                android:layout_height="1dp" /-->
-
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:text="@string/welcome_header"
                 android:textColor="?attr/color_text_primary"
                 android:textSize="?attr/TextSizeHeadline"
                 android:textStyle="bold" />
+            <!--Space
+                android:layout_width="match_parent"
+                android:layout_height="-2dp" /-->
+
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:text="samplespacesamplespacesamplespacesamplespacesamplespacesamplespacesamplespacesamplespace"
+                android:text="@string/summary"
                 android:textColor="?attr/color_text_primary"
                 android:textSize="?attr/TextSizeBody" />
 
@@ -75,11 +75,10 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginTop="65dp"
+                android:layout_centerVertical="true"
                 android:padding="8dp"
-                android:scaleType="fitCenter"
-                android:src="@drawable/ic_launcher1" />
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_launcher3" />
         </RelativeLayout>
         <TextView
             android:paddingLeft="8dp"

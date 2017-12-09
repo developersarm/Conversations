@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<color name="primary500">#e30d07da</color>
-	<color name="primary700">#e51128dc</color>
-	<color name="primary800">#eb161cd6</color>
-	<color name="primary900">#1a25a4</color>
-	<color name="accent">#ff0091ea</color>
+	<color name="primary500">#e3111112</color>
+	<color name="primary700">#fd871c06</color>
+	<color name="primary800">#ebc93b28</color>
+	<color name="primary900">#a62c2a</color>
+	<color name="accent">#580704</color>
 	<color name="black87">#de000000</color>
 	<color name="black54">#8a000000</color>
 	<color name="black26">#42000000</color>
