@@ -1,17 +1,35 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.facebook.shimmer.ShimmerFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/shimmer_view_container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/greybackground">
+    android:background="@drawable/ic_launcher3"
+    tools:context="in.gndec.paigaam.ui.SplashScreen">
 
-    <ImageView
-        android:id="@+id/imgLogo"
-        android:layout_width="match_parent"
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+    <LinearLayout
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:layout_centerInParent="true"
-        android:background="@color/white"
-        android:scaleType="fitCenter"
-        android:src="@drawable/ic_launcher3" />
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/TextViewSplash"
+            android:layout_width="385dp"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:keepScreenOn="true"
+            android:textAlignment="center"
+
+            android:text="Paigaam"
+            android:textColor="#de3d43"
+            android:textSize="50sp"
+            android:textStyle="bold" />
 
 
-</RelativeLayout>
+    </LinearLayout>
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+
+</com.facebook.shimmer.ShimmerFrameLayout>

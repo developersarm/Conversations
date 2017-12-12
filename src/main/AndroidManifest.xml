@@ -19,7 +19,8 @@
         android:name="android.permission.READ_PHONE_STATE"
         tools:node="remove" />
 
-    <uses-sdk tools:overrideLibrary="net.ypresto.androidtranscoder" />
+    <uses-sdk tools:overrideLibrary="net.ypresto.androidtranscoder, com.facebook.shimmer" />
+
 
 
     <application
