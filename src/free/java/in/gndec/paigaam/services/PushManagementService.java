@@ -9,7 +9,7 @@ public class PushManagementService {
 	public PushManagementService(XmppConnectionService service) {
 		this.mXmppConnectionService = service;
 	}
-//dbehjwbfjw
+
 	public void registerPushTokenOnServer(Account account) {
 		//stub implementation. only affects playstore flavor
 	}
