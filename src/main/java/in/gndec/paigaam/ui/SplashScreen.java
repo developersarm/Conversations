@@ -4,6 +4,9 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.widget.TextView;
+
+import com.facebook.shimmer.ShimmerFrameLayout;
 
 import in.gndec.paigaam.R;
 
@@ -12,14 +15,21 @@ import in.gndec.paigaam.R;
  */
 
 public class SplashScreen extends Activity {
-
+    TextView splash_Text;
+    ShimmerFrameLayout shimmer;
     // Splash screen timer
-    private static int SPLASH_TIME_OUT = 3000;
+    private static int SPLASH_TIME_OUT = 1000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
+
+        shimmer = findViewById(R.id.shimmer_view_container);
+        shimmer.setDropoff(0.5f);
+        shimmer.setAutoStart(true);
+
+        splash_Text = findViewById(R.id.TextViewSplash);
 
         new Handler().postDelayed(new Runnable() {
 
