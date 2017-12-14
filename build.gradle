@@ -51,8 +51,6 @@ dependencies {
     compile 'com.makeramen:roundedimageview:2.3.0'
     compile 'com.wefika:flowlayout:0.4.1'
     compile 'net.ypresto.androidtranscoder:android-transcoder:0.2.0'
-    compile 'com.facebook.shimmer:shimmer:0.1.0@aar'
-
 }
 
 ext {
